@@ -1,3 +1,6 @@
+using Domain.Interfaces.TaxaInterface;
+using Service.Services.TaxaService;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +9,9 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+//dependencies
+builder.Services.AddScoped<ITaxa,TaxaService>();
 
 var app = builder.Build();
 
