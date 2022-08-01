@@ -208,25 +208,28 @@
     ]
   },
   "packageFolders": {
-    "/home/jonatas/.nuget/packages/": {}
+    "C:\\Users\\discover\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/jonatas/Documentos/Granito/Granito/Granito/Granito.csproj",
+      "projectUniqueName": "C:\\Users\\discover\\Documents\\Granito\\Granito-Taxas\\Granito.csproj",
       "projectName": "Granito",
-      "projectPath": "/home/jonatas/Documentos/Granito/Granito/Granito/Granito.csproj",
-      "packagesPath": "/home/jonatas/.nuget/packages/",
-      "outputPath": "/home/jonatas/Documentos/Granito/Granito/Granito/obj/",
+      "projectPath": "C:\\Users\\discover\\Documents\\Granito\\Granito-Taxas\\Granito.csproj",
+      "packagesPath": "C:\\Users\\discover\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\discover\\Documents\\Granito\\Granito-Taxas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/jonatas/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\discover\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/Adyou/_packaging/Adyou/nuget/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
@@ -267,7 +270,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
